@@ -1,0 +1,756 @@
+{
+  "cameraCharacteristics": {
+    "android": {
+      "colorCorrection": {
+        "availableAberrationModes": {
+          "p": "COLOR_CORRECTION_ABERRATION_MODE",
+          "0": "OFF",
+          "1": "FAST",
+          "2": "HIGH_QUALITY"
+        }
+      },
+      "control": {
+        "aeAvailableAntibandingModes": {
+          "p": "CONTROL_AE_ANTIBANDING_MODE",
+          "0": "OFF",
+          "1": "50HZ",
+          "2": "60HZ",
+          "3": "AUTO"
+        },
+        "aeAvailableModes": {
+          "p": "CONTROL_AE_MODE",
+          "0": "OFF",
+          "1": "ON",
+          "2": "ON_AUTO_FLASH",
+          "3": "ON_ALWAYS_FLASH",
+          "4": "AUTO_FLASH_REDEYE",
+          "5": "EXTERNAL_FLASH"
+        },
+        "aeAvailableTargetFpsRanges": {
+          "p": "CONTROL_AE_AVAILABLE_TARGET_FPS_RANGES",
+          "t": "a_range_i"
+        },
+        "aeCompensationRange": {
+          "p": "CONTROL_AE_COMPENSATION_RANGE",
+          "t": "range_i"
+        },
+        "aeCompensationStep": {
+          "p": "CONTROL_AE_COMPENSATION_STEP",
+          "t": "rational"
+        },
+        "afAvailableModes": {
+          "p": "CONTROL_AF_MODE",
+          "0": "MODE_OFF",
+          "1": "AUTO",
+          "2": "MACRO",
+          "3": "CONTINUOUS_VIDEO",
+          "4": "CONTINUOUS_PICTURE",
+          "5": "EDOF"
+        },
+        "availableEffects": {
+          "p": "CONTROL_EFFECT_MODE",
+          "0": "OFF",
+          "1": "MONO",
+          "2": "NEGATIVE",
+          "3": "SOLARIZE",
+          "4": "SEPIA",
+          "5": "POSTERIZE",
+          "6": "WHITEBOARD",
+          "7": "BLACKBOARD",
+          "8": "AQUA"
+        },
+        "availableSceneModes": {
+          "p": "CONTROL_SCENE_MODE",
+          "0": "DISABLED",
+          "1": "FACE_PRIORITY",
+          "2": "ACTION",
+          "3": "PORTRAIT",
+          "4": "LANDSCAPE",
+          "5": "NIGHT",
+          "6": "NIGHT_PORTRAIT",
+          "7": "THEATRE",
+          "8": "BEACH",
+          "9": "SNOW",
+          "10": "SUNSET",
+          "11": "STEADYPHOTO",
+          "12": "FIREWORKS",
+          "13": "SPORTS",
+          "14": "PARTY",
+          "15": "CANDLELIGHT",
+          "16": "BARCODE",
+          "17": "HIGH_SPEED_VIDEO",
+          "18": "HDR"
+        },
+        "availableVideoStabilizationModes": {
+          "p": "CONTROL_VIDEO_STABILIZATION_MODE",
+          "0": "OFF",
+          "1": "ON"
+        },
+        "awbAvailableModes": {
+          "p": "CONTROL_AWB_MODE",
+          "0": "OFF",
+          "1": "AUTO",
+          "2": "INCANDESCENT",
+          "3": "FLUORESCENT",
+          "4": "WARM_FLUORESCENT",
+          "5": "DAYLIGHT",
+          "6": "CLOUDY_DAYLIGHT",
+          "7": "TWILIGHT",
+          "8": "SHADE"
+        },
+        "maxRegions": {
+          "p": "CONTROL_MAX_REGIONS",
+          "t": "a_i"
+        },
+        "maxRegionsAe": {
+          "p": "CONTROL_MAX_REGIONS_AE",
+          "t": "i"
+        },
+        "maxRegionsAwb": {
+          "p": "CONTROL_MAX_REGIONS_AWB",
+          "t": "i"
+        },
+        "maxRegionsAf": {
+          "p": "CONTROL_MAX_REGIONS_AF",
+          "t": "i"
+        },
+        "availableHighSpeedVideoConfigurations": {
+          "p": "CONTROL_AVAILABLE_HIGH_SPEED_VIDEO_CONFIGURATIONS",
+          "t": "a_hsvc"
+        },
+        "aeLockAvailable": {
+          "p": "CONTROL_AE_LOCK_AVAILABLE",
+          "t": "b"
+        },
+        "awbLockAvailable": {
+          "p": "CONTROL_AWB_LOCK_AVAILABLE",
+          "t": "b"
+        },
+        "availableModes": {
+          "p": "CONTROL_MODE",
+          "0": "OFF",
+          "1": "AUTO",
+          "2": "USE_SCENE_MODE",
+          "3": "OFF_KEEP_STATE",
+          "4": "USE_EXTENDED_SCENE_MODE"
+        },
+        "postRawSensitivityBoostRange": {
+          "p": "CONTROL_POST_RAW_SENSITIVITY_BOOST_RANGE",
+          "t": "range_i"
+        },
+        "availableExtendedSceneModeMaxSizes": {
+          "p": "CONTROL_AVAILABLE_EXTENDED_SCENE_MODE_MAX_SIZES",
+          "t": "a_i"
+        },
+        "availableExtendedSceneModeZoomRatioRanges": {
+          "p": "CONTROL_AVAILABLE_EXTENDED_SCENE_MODE_ZOOM_RATIO_RANGES",
+          "t": "a_f"
+        },
+        "availableExtendedSceneModeCapabilities": {
+          "p": "CONTROL_AVAILABLE_EXTENDED_SCENE_MODE_CAPABILITIES",
+          "t": "a_capability"
+        },
+        "zoomRatioRange": {
+          "p": "CONTROL_ZOOM_RATIO_RANGE",
+          "t": "range_f"
+        }
+      },
+      "edge": {
+        "availableEdgeModes": {
+          "p": "EDGE_MODE",
+          "0": "OFF",
+          "1": "FAST",
+          "2": "HIGH_QUALITY",
+          "3": "ZERO_SHUTTER_LAG"
+        }
+      },
+      "flash": {
+        "info": {
+          "available": {
+            "p": "FLASH_INFO_AVAILABLE",
+            "t": "b"
+          }
+        }
+      },
+      "hotPixel": {
+        "availableHotPixelModes": {
+          "p": "HOT_PIXEL_MODE",
+          "0": "OFF",
+          "1": "FAST",
+          "2": "HIGH_QUALITY"
+        }
+      },
+      "jpeg": {
+        "availableThumbnailSizes": {
+          "p": "JPEG_AVAILABLE_THUMBNAIL_SIZES",
+          "t": "a_size"
+        }
+      },
+      "lens": {
+        "info": {
+          "availableApertures": {
+            "p": "LENS_INFO_AVAILABLE_APERTURES",
+            "t": "a_f"
+          },
+          "availableFilterDensities": {
+            "p": "LENS_INFO_AVAILABLE_FILTER_DENSITIES",
+            "t": "a_f"
+          },
+          "availableFocalLengths": {
+            "p": "LENS_INFO_AVAILABLE_FOCAL_LENGTHS",
+            "t": "a_f"
+          },
+          "availableOpticalStabilization": {
+            "p": "LENS_OPTICAL_STABILIZATION_MODE",
+            "0": "OFF",
+            "1": "ON"
+          },
+          "hyperfocalDistance": {
+            "p": "LENS_INFO_HYPERFOCAL_DISTANCE",
+            "t": "f"
+          },
+          "minimumFocusDistance": {
+            "p": "LENS_INFO_MINIMUM_FOCUS_DISTANCE",
+            "t": "f"
+          },
+          "shadingMapSize": {
+            "p": "LENS_INFO_SHADING_MAP_SIZE",
+            "t": "size"
+          },
+          "focusDistanceCalibration": {
+            "p": "LENS_INFO_FOCUS_DISTANCE_CALIBRATION",
+            "t": "i"
+          }
+        },
+        "facing": {
+          "p": "LENS_FACING",
+          "0": "FRONT",
+          "1": "BACK",
+          "2": "EXTERNAL"
+        },
+        "poseRotation": {
+          "p": "LENS_POSE_ROTATION",
+          "t": "a_f"
+        },
+        "poseTranslation": {
+          "p": "LENS_POSE_TRANSLATION",
+          "t": "a_f"
+        },
+        "intrinsicCalibration": {
+          "p": "LENS_INTRINSIC_CALIBRATION",
+          "t": "a_f"
+        },
+        "radialDistortion": {
+          "p": "LENS_RADIAL_DISTORTION",
+          "t": "a_f"
+        },
+        "poseReference": {
+          "p": "LENS_POSE_REFERENCE",
+          "0": "PRIMARY_CAMERA",
+          "1": "GYROSCOPE",
+          "2": "UNDEFINED"
+        },
+        "distortion": {
+          "p": "LENS_DISTORTION",
+          "t": "a_f"
+        }
+      },
+      "noiseReduction": {
+        "availableNoiseReductionModes": {
+          "p": "NOISE_REDUCTION_MODE",
+          "0": "OFF",
+          "1": "FAST",
+          "2": "HIGH_QUALITY",
+          "3": "MINIMAL",
+          "4": "ZERO_SHUTTER_LAG"
+        }
+      },
+      "quirks": {
+        "usePartialResult": {
+          "p": "QUIRKS_USE_PARTIAL_RESULT",
+          "t": "byte"
+        }
+      },
+      "request": {
+        "maxNumOutputStreams": {
+          "p": "REQUEST_MAX_NUM_OUTPUT_STREAMS",
+          "t": "a_i"
+        },
+        "maxNumOutputRaw": {
+          "p": "REQUEST_MAX_NUM_OUTPUT_RAW",
+          "t": "i"
+        },
+        "maxNumOutputProc": {
+          "p": "REQUEST_MAX_NUM_OUTPUT_PROC",
+          "t": "i"
+        },
+        "maxNumOutputProcStalling": {
+          "p": "REQUEST_MAX_NUM_OUTPUT_PROC_STALLING",
+          "t": "i"
+        },
+        "maxNumInputStreams": {
+          "p": "REQUEST_MAX_NUM_INPUT_STREAMS",
+          "t": "i"
+        },
+        "pipelineMaxDepth": {
+          "p": "REQUEST_PIPELINE_MAX_DEPTH",
+          "t": "byte"
+        },
+        "partialResultCount": {
+          "p": "REQUEST_PARTIAL_RESULT_COUNT",
+          "t": "i"
+        },
+        "availableCapabilities": {
+          "p": "REQUEST_AVAILABLE_CAPABILITIES",
+          "0": "BACKWARD_COMPATIBLE",
+          "1": "MANUAL_SENSOR",
+          "2": "MANUAL_POST_PROCESSING",
+          "3": "RAW",
+          "4": "PRIVATE_REPROCESSING",
+          "5": "READ_SENSOR_SETTINGS",
+          "6": "BURST_CAPTURE",
+          "7": "YUV_REPROCESSING",
+          "8": "DEPTH_OUTPUT",
+          "9": "CONSTRAINED_HIGH_SPEED_VIDEO",
+          "10": "MOTION_TRACKING",
+          "11": "LOGICAL_MULTI_CAMERA",
+          "12": "MONOCHROME",
+          "13": "SECURE_IMAGE_DATA",
+          "14": "SYSTEM_CAMERA",
+          "15": "OFFLINE_PROCESSING"
+        },
+        "availableRequestKeys": {
+          "p": "REQUEST_AVAILABLE_REQUEST_KEYS",
+          "t": "a_i"
+        },
+        "availableResultKeys": {
+          "p": "REQUEST_AVAILABLE_RESULT_KEYS",
+          "t": "a_i"
+        },
+        "availableCharacteristicsKeys": {
+          "p": "REQUEST_AVAILABLE_CHARACTERISTICS_KEYS",
+          "t": "a_i"
+        },
+        "availableSessionKeys": {
+          "p": "REQUEST_AVAILABLE_SESSION_KEYS",
+          "t": "a_i"
+        },
+        "availablePhysicalCameraRequestKeys": {
+          "p": "REQUEST_AVAILABLE_PHYSICAL_CAMERA_REQUEST_KEYS",
+          "t": "a_i"
+        },
+        "characteristicKeysNeedingPermission": {
+          "p": "REQUEST_CHARACTERISTIC_KEYS_NEEDING_PERMISSION",
+          "t": "a_i"
+        }
+      },
+      "scaler": {
+        "availableFormats": {
+          "p": "SCALER_AVAILABLE_FORMATS",
+          "0": "UNKNOWN",
+          "1": "RGBA_8888",
+          "2": "RGBX_8888",
+          "3": "RGB_888",
+          "4": "RGB_565",
+          "6": "RGBA_5551",
+          "7": "RGBA_4444",
+          "8": "A_8",
+          "9": "L_8",
+          "10": "LA_88",
+          "11": "RGB_332",
+          "16": "NV16",
+          "17": "NV21",
+          "20": "YUY2",
+          "22": "RGBA_F16",
+          "32": "RAW_SENSOR",
+          "34": "PRIVATE",
+          "35": "YUV_420_888",
+          "36": "RAW_PRIVATE",
+          "37": "RAW10",
+          "38": "RAW12",
+          "39": "YUV_422_888",
+          "40": "YUV_444_888",
+          "41": "FLEX_RGB_888",
+          "42": "FLEX_RGBA_8888",
+          "43": "RGBA_1010102",
+          "256": "JPEG",
+          "257": "DEPTH_POINT_CLOUD",
+          "538982489": "Y8",
+          "842094169": "YV12",
+          "1144402265": "DEPTH16",
+          "1212500294": "HEIC",
+          "1768253795": "DEPTH_JPEG",
+          "-3": "TRANSLUCENT",
+          "-2": "TRANSPARENT",
+          "-1": "OPAQUE"
+        },
+        "availableJpegMinDurations": {
+          "p": "SCALER_AVAILABLE_JPEG_MIN_DURATIONS",
+          "t": "a_l"
+        },
+        "availableJpegSizes": {
+          "p": "SCALER_AVAILABLE_JPEG_SIZES",
+          "t": "a_size"
+        },
+        "availableMaxDigitalZoom": {
+          "p": "SCALER_AVAILABLE_MAX_DIGITAL_ZOOM",
+          "t": "f"
+        },
+        "availableProcessedMinDurations": {
+          "p": "SCALER_AVAILABLE_PROCESSED_MIN_DURATIONS",
+          "t": "a_l"
+        },
+        "availableProcessedSizes": {
+          "p": "SCALER_AVAILABLE_PROCESSED_SIZES",
+          "t": "a_size"
+        },
+        "availableInputOutputFormatsMap": {
+          "p": "SCALER_AVAILABLE_INPUT_OUTPUT_FORMATS_MAP",
+          "t": "ReprocessFormatsMap"
+        },
+        "availableStreamConfigurations": {
+          "p": "SCALER_AVAILABLE_STREAM_CONFIGURATIONS",
+          "t": "a_StreamConfiguration"
+        },
+        "availableMinFrameDurations": {
+          "p": "SCALER_AVAILABLE_MIN_FRAME_DURATIONS",
+          "t": "a_StreamConfigurationDuration"
+        },
+        "availableStallDurations": {
+          "p": "SCALER_AVAILABLE_STALL_DURATIONS",
+          "t": "a_StreamConfigurationDuration"
+        },
+        "streamConfigurationMap": {
+          "p": "SCALER_STREAM_CONFIGURATION_MAP",
+          "t": "StreamConfigurationMap"
+        },
+        "croppingType": {
+          "p": "SCALER_CROPPING_TYPE",
+          "0": "CENTER_ONLY",
+          "1": "FREEFORM"
+        },
+        "availableRecommendedStreamConfigurations": {
+          "p": "SCALER_AVAILABLE_RECOMMENDED_STREAM_CONFIGURATIONS",
+          "t": "a_RecommendedStreamConfiguration"
+        },
+        "availableRecommendedInputOutputFormatsMap": {
+          "p": "SCALER_AVAILABLE_RECOMMENDED_INPUT_OUTPUT_FORMATS_MAP",
+          "t": "ReprocessFormatsMap"
+        },
+        "mandatoryStreamCombinations": {
+          "p": "SCALER_MANDATORY_STREAM_COMBINATIONS",
+          "t": "a_MandatoryStreamCombination"
+        },
+        "mandatoryConcurrentStreamCombinations": {
+          "p": "SCALER_MANDATORY_CONCURRENT_STREAM_COMBINATIONS",
+          "t": "a_MandatoryStreamCombination"
+        },
+        "availableRotateAndCropModes": {
+          "p": "SCALER_ROTATE_AND_CROP",
+          "0": "NONE",
+          "1": "90",
+          "2": "180",
+          "3": "270",
+          "4": "AUTO"
+        }
+      },
+      "sensor": {
+        "info": {
+          "activeArraySize": {
+            "p": "SENSOR_INFO_ACTIVE_ARRAY_SIZE",
+            "t": "rect"
+          },
+          "sensitivityRange": {
+            "p": "SENSOR_INFO_SENSITIVITY_RANGE",
+            "t": "range_i"
+          },
+          "colorFilterArrangement": {
+            "p": "SENSOR_INFO_COLOR_FILTER_ARRANGEMENT",
+            "0": "RGGB",
+            "1": "GRBG",
+            "2": "GBRG",
+            "3": "BGGR",
+            "4": "RGB",
+            "5": "MONO",
+            "6": "NIR"
+          },
+          "exposureTimeRange": {
+            "p": "SENSOR_INFO_EXPOSURE_TIME_RANGE",
+            "t": "range_l"
+          },
+          "maxFrameDuration": {
+            "p": "SENSOR_INFO_MAX_FRAME_DURATION",
+            "t": "l"
+          },
+          "physicalSize": {
+            "p": "SENSOR_INFO_PHYSICAL_SIZE",
+            "t": "sizef"
+          },
+          "pixelArraySize": {
+            "p": "SENSOR_INFO_PIXEL_ARRAY_SIZE",
+            "t": "size"
+          },
+          "whiteLevel": {
+            "p": "SENSOR_INFO_WHITE_LEVEL",
+            "t": "i"
+          },
+          "timestampSource": {
+            "p": "SENSOR_INFO_TIMESTAMP_SOURCE",
+            "0": "UNKNOWN",
+            "1": "REALTIME"
+          },
+          "lensShadingApplied": {
+            "p": "SENSOR_INFO_LENS_SHADING_APPLIED",
+            "t": "b"
+          },
+          "preCorrectionActiveArraySize": {
+            "p": "SENSOR_INFO_PRE_CORRECTION_ACTIVE_ARRAY_SIZE",
+            "t": "rect"
+          }
+        },
+        "referenceIlluminant1": {
+          "p": "SENSOR_REFERENCE_ILLUMINANT1",
+          "1": "DAYLIGHT",
+          "2": "FLUORESCENT",
+          "3": "TUNGSTEN",
+          "4": "FLASH",
+          "9": "FINE_WEATHER",
+          "10": "CLOUDY_WEATHER",
+          "11": "SHADE",
+          "12": "DAYLIGHT_FLUORESCENT",
+          "13": "DAY_WHITE_FLUORESCENT",
+          "14": "COOL_WHITE_FLUORESCENT",
+          "15": "WHITE_FLUORESCENT",
+          "17": "STANDARD_A",
+          "18": "STANDARD_B",
+          "19": "STANDARD_C",
+          "20": "D55",
+          "21": "D65",
+          "22": "D75",
+          "23": "D50",
+          "24": "ISO_STUDIO_TUNGSTEN"
+        },
+        "referenceIlluminant2": {
+          "p": "SENSOR_REFERENCE_ILLUMINANT2",
+          "1": "DAYLIGHT",
+          "2": "FLUORESCENT",
+          "3": "TUNGSTEN",
+          "4": "FLASH",
+          "9": "FINE_WEATHER",
+          "10": "CLOUDY_WEATHER",
+          "11": "SHADE",
+          "12": "DAYLIGHT_FLUORESCENT",
+          "13": "DAY_WHITE_FLUORESCENT",
+          "14": "COOL_WHITE_FLUORESCENT",
+          "15": "WHITE_FLUORESCENT",
+          "17": "STANDARD_A",
+          "18": "STANDARD_B",
+          "19": "STANDARD_C",
+          "20": "D55",
+          "21": "D65",
+          "22": "D75",
+          "23": "D50",
+          "24": "ISO_STUDIO_TUNGSTEN"
+        },
+        "calibrationTransform1": {
+          "p": "SENSOR_CALIBRATION_TRANSFORM1",
+          "t": "ColorSpaceTransform"
+        },
+        "calibrationTransform2": {
+          "p": "SENSOR_CALIBRATION_TRANSFORM2",
+          "t": "ColorSpaceTransform"
+        },
+        "colorTransform1": {
+          "p": "SENSOR_COLOR_TRANSFORM1",
+          "t": "ColorSpaceTransform"
+        },
+        "colorTransform2": {
+          "p": "SENSOR_COLOR_TRANSFORM2",
+          "t": "ColorSpaceTransform"
+        },
+        "forwardMatrix1": {
+          "p": "SENSOR_FORWARD_MATRIX1",
+          "t": "ColorSpaceTransform"
+        },
+        "forwardMatrix2": {
+          "p": "SENSOR_FORWARD_MATRIX2",
+          "t": "ColorSpaceTransform"
+        },
+        "blackLevelPattern": {
+          "p": "SENSOR_BLACK_LEVEL_PATTERN",
+          "t": "BlackLevelPattern"
+        },
+        "maxAnalogSensitivity": {
+          "p": "SENSOR_MAX_ANALOG_SENSITIVITY",
+          "t": "i"
+        },
+        "orientation": {
+          "p": "SENSOR_ORIENTATION",
+          "t": "i"
+        },
+        "availableTestPatternModes": {
+          "p": "SENSOR_AVAILABLE_TEST_PATTERN_MODES",
+          "0": "OFF",
+          "1": "SOLID_COLOR",
+          "2": "COLOR_BARS",
+          "3": "COLOR_BARS_FADE_TO_GRAY",
+          "4": "PN9",
+          "256": "CUSTOM1"
+        },
+        "opticalBlackRegions": {
+          "p": "SENSOR_OPTICAL_BLACK_REGIONS",
+          "t": "a_rect"
+        }
+      },
+      "shading": {
+        "availableModes": {
+          "p": "SHADING_MODE",
+          "0": "OFF",
+          "1": "FAST",
+          "2": "HIGH_QUALITY"
+        }
+      },
+      "statistics": {
+        "info": {
+          "availableFaceDetectModes": {
+            "p": "STATISTICS_FACE_DETECT_MODE",
+            "0": "OFF",
+            "1": "SIMPLE",
+            "2": "FULL"
+          },
+          "availableHotPixelMapModes": {
+            "p": "STATISTICS_INFO_AVAILABLE_HOT_PIXEL_MAP_MODES",
+            "t": "a_b"
+          },
+          "availableLensShadingMapModes": {
+            "p": "STATISTICS_LENS_SHADING_MAP_MODE",
+            "0": "OFF",
+            "1": "ON"
+          },
+          "availableOisDataModes": {
+            "p": "STATISTICS_OIS_DATA_MODE",
+            "0": "OFF",
+            "1": "ON"
+          },
+          "maxFaceCount": {
+            "p": "STATISTICS_INFO_MAX_FACE_COUNT",
+            "t": "i"
+          }
+        }
+      },
+      "tonemap": {
+        "maxCurvePoints": {
+          "p": "TONEMAP_MAX_CURVE_POINTS",
+          "t": "i"
+        },
+        "availableToneMapModes": {
+          "p": "TONEMAP_MODE",
+          "0": "CONTRAST_CURVE",
+          "1": "FAST",
+          "2": "HIGH_QUALITY",
+          "4": "PRESET_CURVE"
+        }
+      },
+      "led": {
+      "availableLeds": {
+        "p": "LED_AVAILABLE_LEDS",
+        "0": "TRANSMIT"
+      }
+      },
+      "info": {
+        "supportedHardwareLevel": {
+          "p": "INFO_SUPPORTED_HARDWARE_LEVEL",
+          "0": "LIMITED",
+          "1": "FULL",
+          "2": "LEGACY",
+          "3": "3",
+          "4": "EXTERNAL"
+        },
+        "version" : {
+          "p": "INFO_VERSION",
+          "t": "s"
+        }
+      },
+      "sync": {
+        "maxLatency": {
+          "p": "SYNC_MAX_LATENCY",
+          "0": "PER_FRAME_CONTROL",
+          "-1": "UNKNOWN"
+        }
+      },
+      "reprocess": {
+        "maxCaptureStall": {
+          "p": "REPROCESS_MAX_CAPTURE_STALL",
+          "t": "i"
+        }
+      },
+      "depth": {
+        "availableDepthStreamConfigurations": {
+          "p": "DEPTH_AVAILABLE_DEPTH_STREAM_CONFIGURATIONS",
+          "t": "a_StreamConfiguration"
+        },
+        "availableDepthMinFrameDurations": {
+          "p": "DEPTH_AVAILABLE_DEPTH_MIN_FRAME_DURATIONS",
+          "t": "a_StreamConfigurationDuration"
+        },
+        "availableDepthStallDurations": {
+          "p": "DEPTH_AVAILABLE_DEPTH_STALL_DURATIONS",
+          "t": "a_StreamConfigurationDuration"
+        },
+        "depthIsExclusive": {
+          "p": "DEPTH_DEPTH_IS_EXCLUSIVE",
+          "t": "b"
+        },
+        "availableRecommendedDepthStreamConfigurations": {
+          "p": "DEPTH_AVAILABLE_RECOMMENDED_DEPTH_STREAM_CONFIGURATIONS",
+          "t": "a_RecommendedStreamConfiguration"
+        },
+        "availableDynamicDepthStreamConfigurations": {
+          "p": "DEPTH_AVAILABLE_DYNAMIC_DEPTH_STREAM_CONFIGURATIONS",
+          "t": "a_StreamConfiguration"
+        },
+        "availableDynamicDepthMinFrameDurations": {
+          "p": "DEPTH_AVAILABLE_DYNAMIC_DEPTH_MIN_FRAME_DURATIONS",
+          "t": "a_StreamConfigurationDuration"
+        },
+        "availableDynamicDepthStallDurations": {
+          "p": "DEPTH_AVAILABLE_DYNAMIC_DEPTH_STALL_DURATIONS",
+          "t": "a_StreamConfigurationDuration"
+        }
+      },
+      "logicalMultiCamera": {
+        "physicalIds" : {
+          "p": "LOGICAL_MULTI_CAMERA_PHYSICAL_IDS",
+          "t": "a_byte"
+        },
+        "sensorSyncType" : {
+          "p": "LOGICAL_MULTI_CAMERA_SENSOR_SYNC_TYPE",
+          "0": "APPROXIMATE",
+          "1": "CALIBRATED"
+        }
+      },
+      "distortionCorrection": {
+        "availableModes": {
+          "p": "DISTORTION_CORRECTION_MODE",
+          "0": "OFF",
+          "1": "FAST",
+          "2": "HIGH_QUALITY"
+        }
+      },
+      "heic": {
+        "availableHeicStreamConfigurations": {
+          "p": "HEIC_AVAILABLE_HEIC_STREAM_CONFIGURATIONS",
+          "t": "a_StreamConfiguration"
+        },
+        "availableHeicMinFrameDurations": {
+          "p": "HEIC_AVAILABLE_HEIC_MIN_FRAME_DURATIONS",
+          "t": "a_StreamConfigurationDuration"
+        },
+        "availableHeicStallDurations": {
+          "p": "HEIC_AVAILABLE_HEIC_STALL_DURATIONS",
+          "t": "a_StreamConfigurationDuration"
+        }
+      }
+    }
+  }
+}
