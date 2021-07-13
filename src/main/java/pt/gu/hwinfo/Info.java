@@ -6,6 +6,7 @@ import android.provider.DocumentsContract;
 import org.json.JSONObject;
 import org.w3c.dom.Element;
 
+@SuppressWarnings("unused")
 public interface Info {
 
     String TYPE_PROVIDER = "vnd.android.provider";

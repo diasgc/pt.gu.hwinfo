@@ -18,6 +18,7 @@ import pt.gu.utils.TypeUtils;
 
 import static pt.gu.hwinfo.Info.DEFAULT_PROJECTION;
 
+@SuppressWarnings("unused")
 public class CursorXp {
 
     public static class Row {

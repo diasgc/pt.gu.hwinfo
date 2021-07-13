@@ -14,6 +14,7 @@ import java.io.File;
 import pt.gu.utils.JsonUtils;
 import pt.gu.utils.StringUtils;
 
+@SuppressWarnings("unused")
 public class Camera implements Info {
 
     private static final String TAG = Camera.class.getSimpleName();
